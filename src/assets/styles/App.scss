@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap");
+@import "_nullstyle";
+
+/*----------var------------*/
+$ff: "Fredoka", sans-serif;
+$color: #26223d;
+$fw: 400;
+$fz: 14px;
+$lh: 135%;
+$container: 1300px;
+/*----------var------------*/
+
+/*----------media------------*/
+$pc: 1440px;
+$lp: 1024px;
+$tb: 768px;
+$mb: 576px;
+$ms: 425px;
+/*----------media------------*/
+
+/*----------mixins------------*/
+$maxWidth: 1920;
+@mixin adaptiv-font($pcSize, $mobSize) {
+   $addSize: $pcSize - $mobSize;
+   $maxWidth: $maxWidth - 320;
+   font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+/*----------mixins------------*/
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+::-webkit-scrollbar-thumb {
+   background-color: #c4c4c4;
+   border-radius: 3px;
+}
+
+/*----------tags------------*/
+html {
+   scroll-behavior: smooth;
+}
+body {
+   font-family: $ff;
+   color: $color;
+   font-weight: $fw;
+   font-size: $fz;
+   line-height: $lh;
+   &.lock {
+      overflow: hidden;
+   }
+}
+img {
+   max-width: 100%;
+}
+/*----------tags------------*/
+
+/*----------general------------*/
+.container {
+   max-width: calc($container + 30px);
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.wrapper {
+   width: 100%;
+   font-family: "Fredoka", sans-serif;
+   min-height: 100vh;
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   background-color: #f9f9f9;
+}
+.header {
+}
+.main {
+   flex: 1 1 auto;
+}
+.footer {
+}
+/*----------general------------*/

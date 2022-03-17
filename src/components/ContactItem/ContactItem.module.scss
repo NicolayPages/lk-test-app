@@ -1,0 +1,98 @@
+.contact {
+   background-color: #fff;
+   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+   padding: 15px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.name {
+   font-size: 24px;
+   font-weight: 500;
+   margin-bottom: 12px;
+   line-height: 120%;
+   position: relative;
+   &::after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: rgba(34, 60, 80, 0.4);
+   }
+}
+.info {
+   font-size: 16px;
+   line-height: 120%;
+   margin-bottom: 5px;
+   span {
+      font-size: 18px;
+      font-weight: 500;
+   }
+   &:last-child {
+      margin-bottom: 0;
+   }
+}
+
+.actions {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   .actionBtn {
+      background: transparent;
+      width: 30px;
+      position: relative;
+      top: 0;
+      transition: transform 0.2s ease 0s;
+      &:hover {
+         transform: scale(1.1);
+      }
+      &:active {
+         top: 2px;
+      }
+      img {
+         max-width: 100%;
+      }
+   }
+}
+
+.editInput {
+   height: 25px;
+   background-color: rgba(34, 60, 80, 0.2);
+   border-radius: 3px;
+   padding-left: 5px;
+   font-size: 16px;
+}
+
+.nameInput {
+   font-size: 24px;
+   font-weight: 500;
+   height: 30px;
+   background-color: rgba(34, 60, 80, 0.2);
+   border-radius: 3px;
+   padding-left: 5px;
+}
+
+.btn {
+   height: 35px;
+   width: 100%;
+   margin-top: 15px;
+   text-align: center;
+   font-size: 18px;
+   border-radius: 5px;
+   box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+   transition: box-shadow 0.3s ease 0s;
+   position: relative;
+   color: #fff;
+   background: #3990d5;
+   top: 0;
+   &:hover {
+      box-shadow: 0px 2px 6px 0px rgba(34, 60, 80, 0.2);
+   }
+   &:active {
+      top: 2px;
+   }
+}

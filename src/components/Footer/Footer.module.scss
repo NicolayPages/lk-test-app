@@ -1,0 +1,22 @@
+.container {
+   max-width: 1330px;
+   margin: 0 auto;
+   padding: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: gray;
+   }
+}
+.copy {
+   font-size: 18px;
+   text-align: center;
+}

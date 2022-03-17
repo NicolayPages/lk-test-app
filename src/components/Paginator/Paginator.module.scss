@@ -1,0 +1,57 @@
+.paginator {
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+   gap: 10px;
+   padding: 20px;
+}
+
+.list {
+   display: flex;
+   align-items: center;
+   padding: 0 5px;
+   li {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      cursor: pointer;
+      color: #303030;
+      font-size: 22px;
+      margin-right: 10px;
+      border: 1px solid #303030;
+      padding: 5px;
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+}
+
+.selected {
+   font-weight: 500;
+   position: relative;
+   &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: #303030;
+   }
+}
+
+.pagBtn {
+   background-color: #ffda79;
+   color: #303030;
+   font-size: 16px;
+   font-weight: 500;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   height: 30px;
+   padding: 0px 15px;
+   border-radius: 5px;
+   position: relative;
+   top: 0;
+   &:active {
+      top: 2px;
+   }
+}
