@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lk-test-app/static/css/main.9981cac7.css",
+    "main.js": "/lk-test-app/static/js/main.8ccbc277.js",
+    "static/css/31.44d47b30.chunk.css": "/lk-test-app/static/css/31.44d47b30.chunk.css",
+    "static/js/31.aedd2b5f.chunk.js": "/lk-test-app/static/js/31.aedd2b5f.chunk.js",
+    "static/js/787.67818931.chunk.js": "/lk-test-app/static/js/787.67818931.chunk.js",
+    "static/media/person.jpg": "/lk-test-app/static/media/person.d24ec31abe4a29249b92.jpg",
+    "index.html": "/lk-test-app/index.html",
+    "main.9981cac7.css.map": "/lk-test-app/static/css/main.9981cac7.css.map",
+    "main.8ccbc277.js.map": "/lk-test-app/static/js/main.8ccbc277.js.map",
+    "31.44d47b30.chunk.css.map": "/lk-test-app/static/css/31.44d47b30.chunk.css.map",
+    "31.aedd2b5f.chunk.js.map": "/lk-test-app/static/js/31.aedd2b5f.chunk.js.map",
+    "787.67818931.chunk.js.map": "/lk-test-app/static/js/787.67818931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9981cac7.css",
+    "static/js/main.8ccbc277.js"
+  ]
+}
