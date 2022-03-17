@@ -9,14 +9,14 @@
 
 ### Data for login 
 
-Username: Bret
-Password: 92998-3874
+Username: `Bret`  <br/>
+Password: `92998-3874`  <br/>
 
-Username: Antonette
-Password: 90566-7771
+Username: `Antonette`  <br/>
+Password: `90566-7771`  <br/>
 
-Username: Delphine
-Password: 76495-3109
+Username: `Delphine`  <br/>
+Password: `76495-3109`  <br/>
 
 ### Technologies and libraries were used in this app
 
